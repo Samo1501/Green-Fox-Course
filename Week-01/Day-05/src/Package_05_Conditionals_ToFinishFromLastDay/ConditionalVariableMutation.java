@@ -1,0 +1,2 @@
+package Package_05_Conditionals_ToFinishFromLastDay;public class ConditionalVariableMutation {
+}
