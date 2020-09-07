@@ -18,7 +18,8 @@ public class GuessTheNumber {
         int guessNum = numScan.nextInt();
         int actualNum = 55;
 
-
+        //This one didn't work from a half (tried to do it all in one code):
+/*
         if (guessNum == actualNum) {System.out.println("Congratulations, you found the number: " + actualNum);
         } else
             {while (guessNum != actualNum) {
@@ -31,8 +32,8 @@ public class GuessTheNumber {
                 }
             }
         }
+*/
 
-        /*
        while (guessNum != actualNum) {
             if (guessNum > actualNum) {
                 System.out.println("Less! Guess again!");
@@ -40,12 +41,10 @@ public class GuessTheNumber {
             } else if (guessNum < actualNum) {
                 System.out.println("More! Guess again!");
                 guessNum = numScan.nextInt();
-            } else if (guessNum == actualNum) {
-            System.out.println("Congratulations, you found the number: " + actualNum);}
+            }
         }
-         */
-
-         //   System.out.println("You found the number: " + actualnum);
+       if (guessNum == actualNum) {
+           System.out.println("Congratulations, you found the number: " + actualNum);}
 
 
     }
